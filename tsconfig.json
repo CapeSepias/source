@@ -40,6 +40,13 @@
     "esModuleInterop": true,
     "resolveJsonModule": true
   },
-  "include": ["src/**/*"],
+  "include": [, "packages/source/src/foundations/index.ts"
+    "src/**/*",
+    "packages/source/src/mq.test.ts",
+    "packages/source/src/space.test.ts",
+    "packages/source/src/foundations/space.ts",
+    "packages/source/src/utils",
+    "packages/source/src/foundations/breakpoints.ts"
+  ],
   "exclude": ["node_modules"]
 }
