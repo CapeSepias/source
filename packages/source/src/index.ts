@@ -60,7 +60,7 @@ export { remSpace, space } from './foundations/space';
 
 // ############################# themes #############################
 
-export { brandTheme, brandAlt, defaultTheme } from './foundations/themes';
+export { brand, brandAlt, defaultTheme } from './foundations/themes';
 export { choiceCardDefault } from './foundations/themes/choice-card';
 export { accordionDefault } from './foundations/themes/accordion';
 export {
