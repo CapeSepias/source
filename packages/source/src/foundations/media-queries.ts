@@ -1,5 +1,5 @@
-import { breakpoints } from './breakpoints';
-import type { Breakpoint } from './breakpoints';
+import { breakpoints } from '../../config/breakpoints';
+import type { Breakpoint } from '../../config/breakpoints';
 
 export type BreakpointMap = {
 	[key in Breakpoint]: string;

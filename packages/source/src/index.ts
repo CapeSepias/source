@@ -9,12 +9,12 @@ export {
 
 // ############################# animation #############################
 
-export { transitions } from './foundations/animation';
+export { transitions } from '../config/animation';
 
 // ############################# breakpoints #############################
 
-export { breakpoints } from './foundations/breakpoints';
-export type { Breakpoint } from './foundations/breakpoints';
+export { breakpoints } from '../config/breakpoints';
+export type { Breakpoint } from '../config/breakpoints';
 
 // ############################# media queries #############################
 
@@ -60,8 +60,8 @@ export { remSpace, space } from './foundations/space';
 
 // ############################# themes #############################
 
-export { brand, brandAlt, defaultTheme } from './foundations/themes';
-export { choiceCardDefault } from './foundations/themes//choice-card';
+export { brandTheme, brandAlt, defaultTheme } from './foundations/themes';
+export { choiceCardDefault } from './foundations/themes/choice-card';
 export { accordionDefault } from './foundations/themes/accordion';
 export {
 	buttonBrand,

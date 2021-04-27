@@ -1,3 +1,4 @@
+import { iconSize, size } from '../../config/size';
 import { pxToRem } from '../utils/px-to-rem';
 
 /*
@@ -5,28 +6,11 @@ import { pxToRem } from '../utils/px-to-rem';
    xsmall buttons. The medium size meets WCAG 2.1 AAA compliance
    for touch targets.
 */
-const size = {
-	xsmall: 24,
-	small: 36,
-	medium: 44,
-};
 
 const remSize: { [K in keyof typeof size]: number } = {
 	xsmall: pxToRem(size.xsmall),
 	small: pxToRem(size.small),
 	medium: pxToRem(size.medium),
-};
-
-/*
-   We attempt to use these values for icons within Source components.
-   They are analogous with component heights defined by the size values
-   above. They are based on the size of icons used within the button
-   component.
-*/
-const iconSize = {
-	xsmall: 20,
-	small: 26,
-	medium: 30,
 };
 
 const remIconSize: { [K in keyof typeof iconSize]: number } = {

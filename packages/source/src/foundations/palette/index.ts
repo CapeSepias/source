@@ -1,4 +1,4 @@
-import { colors } from './colors';
+import { colors } from '../../../config/colors';
 
 export const brand = {
 	100: colors.blues[7],

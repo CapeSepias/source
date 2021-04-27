@@ -19,7 +19,7 @@ export const defaultTheme = {
 	...userFeedbackDefault,
 };
 
-export const brand = {
+export const brandTheme = {
 	...buttonBrand,
 	...checkboxBrand,
 	...footerBrand,
