@@ -2076,6 +2076,16 @@
   resolved "https://registry.yarnpkg.com/@guardian/prettier/-/prettier-0.5.0.tgz#d8ea25cc396f31bd4baedb8f6d7d3727a9af1fa7"
   integrity sha512-IYXMdqW6vg9mVnAXbbWCm0R9AZfWlAjfJ668TnCx3ypX5/u4AYAXdOfrWWX+uWvFvs3Ulub+E8vEm+eUkxi6rQ==
 
+"@guardian/src-foundations@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@guardian/src-foundations/-/src-foundations-3.5.0.tgz#b31d8a2a41c594bbc4551c9d53738f2515f321f5"
+  integrity sha512-Xx5kq1bJLKpghBRnFjzKAfnZsWcP76aQfTf7sA1hgq61o/CXHYTTL2iv3AF186zvxEMZ1oZ+Xo0E8TvzX1aLBQ==
+
+"@guardian/src-icons@^3.5.0":
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/@guardian/src-icons/-/src-icons-3.5.0.tgz#2bbfc83439adfc195fd38d67497f17e87b543095"
+  integrity sha512-EFAadkgRrNP1SY1b6k8E68VMfqbYNAVILe9w4V+4sbM+wdigRwJ0x54Md/dPHF4ORNvMKt72YutybSDeuhYh1A==
+
 "@icons/material@^0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@icons/material/-/material-0.2.4.tgz#e90c9f71768b3736e76d7dd6783fc6c2afa88bc8"

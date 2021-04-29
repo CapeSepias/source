@@ -1,4 +1,4 @@
-import { background, text } from '../../../../src/core/foundations/src/palette';
+import { background, text } from '../palette';
 
 ////////////////////////////
 // Element specific resets

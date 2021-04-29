@@ -8,7 +8,7 @@ const TAB_KEY_CODE = 9;
  * (on a `tab` key `keydown` event).
  * Requires @babel/plugin-proposal-class-properties
  */
-export class InteractionModeEngine {
+class InteractionModeEngine {
 	private isRunning = false;
 
 	// tslint:disable-next-line:no-constructor-vars
